@@ -22,7 +22,8 @@ discos.value = datos;
 }
 const discosFiltrados = computed(() => {
     return discos.value.filter(disco => {
-        const coincideGenero = filtro.value === 'todos' || disco.genero === filtro.value;
+        const coincideGenero = filtro.value === 'todos' ||
+            disco.genero.toLowerCase() === filtro.value.toLowerCase();
         const coincideBusqueda = disco.artista.toLowerCase().includes(busqueda.value.toLowerCase()) ||
             disco.album.toLowerCase().includes(busqueda.value.toLowerCase());
         return coincideGenero && coincideBusqueda;
