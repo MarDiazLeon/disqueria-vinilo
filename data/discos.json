@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "artista": "The Smiths",
+    "album": "The Queen Is Dead",
+    "genero": "Rock",
+    "precio": 35000,
+    "portada": "https://indiehoy.com/wp-content/uploads/2011/04/The-Smiths-The-Queen-Is-Dead.jpg"
+  },
+  {
+    "id": 2,
+    "artista": "Los Prisioneros",
+    "album": "Corazones",
+    "genero": "Rock",
+    "precio": 32000,
+    "portada": "https://www.latercera.com/resizer/v2/OM55SNU4ZJE2XOYD575WNJHKTM.jpg?auth=37feee2d80ed24311ef94bbf97f44eb4f28e1e21ee6d777357c9cb66db5830e9&height=375&width=375&smart=true"
+  },
+  {
+    "id": 3,
+    "artista": "Miles Davis",
+    "album": "Kind of Blue",
+    "genero": "Jazz",
+    "precio": 32000,
+    "portada": "https://upload.wikimedia.org/wikipedia/en/1/10/Miles_Davis_-_Kind_of_Blue_album_cover.jpg"
+  },
+  {
+    "id": 4,
+    "artista": "Violeta Parra",
+    "album": "Las Últimas Composiciones",
+    "genero": "Blues",
+    "precio": 28000,
+    "portada": "https://www.museovioletaparra.cl/wp-content/uploads/2024/06/img20200507_18375152-scaled-e1717436216671.jpg"
+  },
+  {
+    "id": 5,
+    "artista": "The Cure",
+    "album": "Disintegration",
+    "genero": "Rock",
+    "precio": 38000,
+    "portada": "https://upload.wikimedia.org/wikipedia/en/b/b8/CureDisintegration.jpg"
+  },
+  {
+    "id": 6,
+    "artista": "Los Bunkers",
+    "album": "Vida de Perros",
+    "genero": "Rock",
+    "precio": 30000,
+    "portada": "https://http2.mlstatic.com/D_NQ_NP_705184-MLU69955168809_062023-O.webp"
+  },
+  {
+    "id": 7,
+    "artista": "B.B. King",
+    "album": "Live at the Regal",
+    "genero": "Blues",
+    "precio": 29000,
+    "portada": "https://m.media-amazon.com/images/I/71p-hu9f4YL._UF894,1000_QL80_.jpg"
+  },
+    {
+        "id": 8,
+        "artista": "John Coltrane",
+        "album": "A Love Supreme",
+        "genero": "Jazz",
+        "precio": 31000,
+        "portada": "https://upload.wikimedia.org/wikipedia/en/9/9c/John_Coltrane_-_A_Love_Supreme.jpg"
+    }
+]
