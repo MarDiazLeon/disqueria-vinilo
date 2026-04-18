@@ -6,24 +6,18 @@
 <title>Disquería de Vinilo</title>
 <!-- bulma -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
-    
-    <link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 <!-- Vue.js 3 monta aquí -->
-<div id="app">
     <div id="app">
     <header class="logo-contenedor">
-        <img src="imagenes/vinilos-mar.png.png" alt="Vinilos Mar Logo" class="logo-img">
+        <img src="imagenes/vinilos-mar.png" alt="Vinilos Mar Logo" class="logo-img">
     </header>
-
-    <section class="section">
-        </section>
-</div>
-        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <a class="navbar-item" href="#">
-                    <strong>{{ titulo }}</strong>
+                    <strong class= "has-text-dark">{{ titulo }}</strong>
                 </a>
             </div>
         </nav>
@@ -50,7 +44,7 @@
 
                 <div v-if="cargando" class="has-text-centered my-6">
                     <button class="button is-loading is-large is-ghost">Cargando</button>
-                    <p>Obteniendo discos desde la API...</p>
+                    <p>Obteniendo discos...</p>
                 </div>
 
                 <div v-else class="columns is-multiline">

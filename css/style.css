@@ -17,7 +17,7 @@ body {
 }
 
 .logo-img {
-    max-width: 250px;
+    max-width: 100px;
     height: auto;
     filter: drop-shadow(5px 5px 0px var(--oscuro-retro));
 }
@@ -57,4 +57,22 @@ body {
     color: var(--oscuro-retro);
     font-weight: bold;
     border: 1px solid var(--oscuro-retro);
+}
+
+.navbar-item strong {
+    color: white !important; /*blanco para que resalte*/
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 0px var(--oscuro-retro); /*sombra sólida*/
+    letter-spacing: 1px;
+}
+.card-content .title {
+    color: var(--oscuro-retro);
+    border-bottom: 2px solid var(--rosa-retro); /*una línea rosa abajo del título*/
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.card-content .subtitle {
+    color: #555;
+    font-style: italic;
 }
