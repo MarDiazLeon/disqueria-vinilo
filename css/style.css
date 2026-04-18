@@ -60,11 +60,15 @@ body {
 }
 
 .navbar-item strong {
-    color: white !important; /*blanco para que resalte*/
+    color: #ffffff !important;
     font-size: 1.5rem;
-    text-shadow: 2px 2px 0px var(--oscuro-retro); /*sombra sólida*/
+    text-shadow: 
+        1.5px 1.5px 0px #ff99ac, 
+        0.5px 0.5px 0px #2d3436; 
     letter-spacing: 1px;
+    text-transform: uppercase;
 }
+
 .card-content .title {
     color: var(--oscuro-retro);
     border-bottom: 2px solid var(--rosa-retro); /*una línea rosa abajo del título*/
@@ -88,3 +92,7 @@ body {
 .footer strong, .footer p {
     color: var(--amarillo-neon) !important; /*amarillo neón */
 }
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
