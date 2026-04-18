@@ -35,11 +35,6 @@ body {
     box-shadow: 12px 12px 0px var(--rosa-retro);
 }
 
-.card-content .title {
-    color: var(--oscuro-retro);
-    font-weight: bold;
-}
-
 /* botones tipo neon */
 .button.is-link {
     background-color: var(--rosa-retro) !important;
@@ -58,15 +53,22 @@ body {
     font-weight: bold;
     border: 1px solid var(--oscuro-retro);
 }
-
+.navbar {
+    background-color: var(--oscuro-retro) !important;
+    border-bottom: 4px solid var(--rosa-retro);
+}
 .navbar-item strong {
     color: #ffffff !important;
-    font-size: 1.5rem;
-    text-shadow: 
-        1.5px 1.5px 0px #ff99ac, 
-        0.5px 0.5px 0px #2d3436; 
+    font-size: 1.6rem;
+    text-shadow: 2px 2px 0px var(--rosa-retro);
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+
+.input {
+    border: 3px solid var(--oscuro-retro) !important;
+    box-shadow: 4px 4px 0px var(--oscuro-retro);
+    border-radius: 0;
 }
 
 .card-content .title {
@@ -85,14 +87,10 @@ body {
     background-color: var(--oscuro-retro) !important; /*para contraste total */
     color: white !important;
     padding: 2rem 1.5rem; /*más compacto */
-    margin-top: 2rem;
+    margin-top: 3rem;
     border-top: 4px solid var(--rosa-retro); /* Línea rosa superior*/
 }
 
-.footer strong, .footer p {
-    color: var(--amarillo-neon) !important; /*amarillo neón */
+.footer strong {
+    color: var(--rosa-retro) !important; /*rosa retro */
 }
-.card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
-}
-
