@@ -41,14 +41,22 @@
   },
   {
     "id": 6,
-    "artista": "Los Bunkers",
-    "album": "Vida de Perros",
-    "genero": "Rock",
+    "artista": "Stevie Ray Vaughan",
+    "album": "Texas Flood",
+    "genero": "Blues",
     "precio": 30000,
-    "portada": "https://http2.mlstatic.com/D_NQ_NP_705184-MLU69955168809_062023-O.webp"
+    "portada": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/StevieRayVaughanTexasFlood.jpg/250px-StevieRayVaughanTexasFlood.jpg"
   },
-  {
+   {
     "id": 7,
+    "artista": "The Beatles",
+    "album": "Abbey Road",
+    "genero": "Rock",
+    "precio": 35000,
+    "portada": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/The_Beatles_Abbey_Road_album_cover.jpg/1280px-The_Beatles_Abbey_Road_album_cover.jpg"
+    },
+  {
+    "id": 8,
     "artista": "B.B. King",
     "album": "Live at the Regal",
     "genero": "Blues",
@@ -56,11 +64,38 @@
     "portada": "https://m.media-amazon.com/images/I/71p-hu9f4YL._UF894,1000_QL80_.jpg"
   },
     {
-        "id": 8,
+        "id": 9,
         "artista": "John Coltrane",
         "album": "A Love Supreme",
         "genero": "Jazz",
         "precio": 31000,
         "portada": "https://www.jazzmessengers.com/53107/a-love-supreme-180-gram.jpg"
+    },
+    {
+        "id": 10,
+        "artista": "Dave Brubeck",
+        "album": "Time out",
+        "genero": "Jazz",
+        "precio": 30000,
+        "portada": "https://upload.wikimedia.org/wikipedia/en/e/e5/Time_out_album_cover.jpg"
+    },
+     {
+        "id": 11,
+        "artista": "Robert Johnson",
+        "album": "The Complete Recordings",
+        "genero": "Blues",
+        "precio": 27000,
+        "portada": "https://m.media-amazon.com/images/I/81fJ7LTr40L._UF1000,1000_QL80_.jpg"
+    },
+         {
+        "id": 12,
+        "artista": "Nina Simone",
+        "album": "I Put a Spell on You",
+        "genero": "Jazz",
+        "precio": 34000,
+        "portada": "https://upload.wikimedia.org/wikipedia/en/6/67/Nina_Simone_-_I_Put_a_Spell_on_You.png"
     }
 ]
+
+
+

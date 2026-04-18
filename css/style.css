@@ -76,3 +76,15 @@ body {
     color: #555;
     font-style: italic;
 }
+
+.footer {
+    background-color: var(--oscuro-retro) !important; /*para contraste total */
+    color: white !important;
+    padding: 2rem 1.5rem; /*más compacto */
+    margin-top: 2rem;
+    border-top: 4px solid var(--rosa-retro); /* Línea rosa superior*/
+}
+
+.footer strong, .footer p {
+    color: var(--amarillo-neon) !important; /*amarillo neón */
+}
